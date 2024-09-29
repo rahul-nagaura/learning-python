@@ -1,0 +1,165 @@
+Python String Methods
+
+Python provides several built-in methods to manipulate and modify strings. Below are some common string methods:
+
+1. upper()
+Converts all characters in a string to uppercase.
+
+Example:
+str1 = "AbcDEfghIJ"
+print(str1.upper())  # Output: ABCDEFGHIJ
+
+2. lower()
+Converts all characters in a string to lowercase.
+
+Example:
+str1 = "AbcDEfghIJ"
+print(str1.lower())  # Output: abcdefghij
+
+3. strip()
+Removes any leading and trailing whitespace from a string.
+
+Example:
+str2 = " Silver Spoon "
+print(str2.strip())  # Output: Silver Spoon
+
+4. rstrip()
+Removes trailing characters (spaces or specified characters) from the end of a string.
+
+Example:
+str3 = "Hello!!!"
+print(str3.rstrip("!"))  # Output: Hello
+
+5. replace()
+Replaces all occurrences of a substring with another substring.
+
+Example:
+str2 = "Silver Spoon"
+print(str2.replace("Sp", "M"))  # Output: Silver Moon
+
+6. split()
+Splits a string into a list at each occurrence of the specified separator.
+
+Example:
+str2 = "Silver Spoon"
+print(str2.split(" "))  # Output: ['Silver', 'Spoon']
+
+7. capitalize()
+Capitalizes the first letter of the string, making all other characters lowercase.
+
+Example:
+str1 = "hello"
+print(str1.capitalize())  # Output: Hello
+
+8. center()
+Centers the string, using a specified character as padding.
+
+Example:
+str1 = "Welcome to the Console!!!"
+print(str1.center(50, "."))  # Output: ............Welcome to the Console!!!.............
+
+9. count()
+Returns the number of times a specified value appears in the string.
+
+Example:
+str2 = "Abracadabra"
+print(str2.count("a"))  # Output: 4
+
+10. endswith()
+Checks if the string ends with the specified value. Returns True or False.
+
+Example:
+str1 = "Welcome to the Console!!!"
+print(str1.endswith("!!!"))  # Output: True
+
+11. find()
+Searches for the first occurrence of a substring. Returns the index, or -1 if not found.
+
+Example:
+str1 = "He's name is Dan. He is an honest man."
+print(str1.find("is"))  # Output: 10
+
+12. index()
+Similar to find(), but raises an exception if the value is not found.
+
+Example:
+str1 = "He's name is Dan. Dan is an honest man."
+print(str1.index("Dan"))  # Output: 13
+
+13. isalnum()
+Checks if the string contains only alphanumeric characters (no spaces or symbols).
+
+Example:
+str1 = "WelcomeToTheConsole"
+print(str1.isalnum())  # Output: True
+
+14. isalpha()
+Checks if the string contains only alphabetic characters.
+
+Example:
+str1 = "Welcome"
+print(str1.isalpha())  # Output: True
+
+15. islower()
+Checks if all characters in the string are lowercase.
+
+Example:
+str1 = "hello world"
+print(str1.islower())  # Output: True
+
+16. isprintable()
+Checks if all characters in the string are printable.
+
+Example:
+str1 = "We wish you a Merry Christmas"
+print(str1.isprintable())  # Output: True
+
+17. isspace()
+Checks if the string contains only whitespace characters.
+
+Example:
+str1 = "        "
+print(str1.isspace())  # Output: True
+
+18. istitle()
+Checks if each word starts with an uppercase letter.
+
+Example:
+str1 = "World Health Organization"
+print(str1.istitle())  # Output: True
+
+19. isupper()
+Checks if all characters in the string are uppercase.
+
+Example:
+str1 = "WORLD HEALTH ORGANIZATION"
+print(str1.isupper())  # Output: True
+
+20. startswith()
+Checks if the string starts with the specified value. Returns True or False.
+
+Example:
+str1 = "Python is an Interpreted Language"
+print(str1.startswith("Python"))  # Output: True
+
+21. swapcase()
+Swaps the case of all characters in the string (upper to lower, and lower to upper).
+
+Example:
+str1 = "Python is an Interpreted Language"
+print(str1.swapcase())  # Output: pYTHON IS AN iNTERPRETED lANGUAGE
+
+22. title()
+Capitalizes the first letter of each word in the string.
+
+Example:
+str1 = "he's name is dan. dan is an honest man."
+print(str1.title())  # Output: He'S Name Is Dan. Dan Is An Honest Man.
+"""
+
+# Saving the content to a txt file
+file_path = "/mnt/data/python_string_methods.txt"
+with open(file_path, "w") as file:
+    file.write(text_content)
+
+file_path

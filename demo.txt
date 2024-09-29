@@ -1,0 +1,11 @@
+I am Rahul Nagaura. 
+I am learning new language.
+I am from sikar.
+I am third year student
+
+r+ read overwrite pointer start no turncate
+w+ read overwrite pointer start turncate
+a+ read append pointer end no turncate
+
+pip is package installer for python  also pip3 
+
